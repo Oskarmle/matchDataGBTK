@@ -6,5 +6,6 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
+    {/* This is some important bug-fixing code */}
   </StrictMode>,
 )
